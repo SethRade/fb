@@ -57,7 +57,7 @@ end)
 if queue_on_teleport or (syn and syn.queue_on_teleport) or (fluxus and fluxus.queue_on_teleport) then
     local teleport = queue_on_teleport or (syn and syn.queue_on_teleport) or (fluxus and fluxus.queue_on_teleport)
     teleport([[
-        loadstring(game:HttpGet("https://github.com/SethRade/fb/fullbright.lua"))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/SethRade/fb/refs/heads/main/fullbright.lua"))()
     ]])
 end
 
